@@ -30,7 +30,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'unicorn'
 gem 'active_model_serializers'
 
-gem 'sabisu_rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
