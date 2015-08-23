@@ -29,6 +29,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Unicorn as the app server
 # gem 'unicorn'
 gem 'active_model_serializers'
+
+gem 'sabisu_rails'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -43,3 +45,11 @@ group :development, :test do
   gem 'spring'
 end
 
+group :test do
+  gem "rspec-rails", "~> 2.14"
+  gem "factory_girl_rails"
+  gem 'ffaker'
+  gem "shoulda-matchers"
+end
+
+gem 'devise'
