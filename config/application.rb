@@ -42,5 +42,6 @@ module MarketPlaceApi
     end
 
     config.autoload_paths += Dir["#{config.root}/lib/**/"]
+    config.autoload_paths += Dir["#{config.root}/app/controllers/api/"]
   end
 end
